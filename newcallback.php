@@ -4,8 +4,8 @@ require 'dataMake.php';
 use Abraham\TwitterOAuth\TwitterOAuth;
 session_start();
 
-$consumer_key = "rpDEdoWwo8Yv7hteea1rKwTHA";
-$consumer_secret = 'N4fBrzBQy3ZyaH9kqTml4MZNNrCTiSzIVFl5BaATgyi4K4hrEb';
+$consumer_key = "***************";
+$consumer_secret = '*******************';
 $oauth_callback =  'http://127.0.0.1/Login/callback.php';
 
 $request_token = [];
