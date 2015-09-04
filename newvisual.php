@@ -4,8 +4,8 @@ require 'DataMake.php';
 use Abraham\TwitterOAuth\TwitterOAuth;
 session_start();
 
-$consumer_key = "rpDEdoWwo8Yv7hteea1rKwTHA";
-$consumer_secret = 'N4fBrzBQy3ZyaH9kqTml4MZNNrCTiSzIVFl5BaATgyi4K4hrEb';
+$consumer_key = "**********************";
+$consumer_secret = '**********************';
 $access_token = $_SESSION['access_token'];
 $connectionT = new TwitterOAuth($consumer_key, $consumer_secret, $access_token['oauth_token'], $access_token['oauth_token_secret']);
 $servername = "localhost";
